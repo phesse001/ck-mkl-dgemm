@@ -1,0 +1,52 @@
+{
+  "backup_data_uid": "9bda8c109fcf4a21",
+  "build_compiler_vars": {
+  },
+  "compile_deps": {
+    "compiler": {
+      "local": "yes",
+      "name": "C compiler",
+      "sort": 10,
+      "tags": "compiler,lang-c"
+    },
+    "lib-mkl": {
+       "local": "yes",
+       "name": "MKL library",
+       "tags": "lib,mkl,core,sequential,lp64",
+       "sort": 20
+    }
+  },
+  "compile_cmds":{
+    "pre_process_via_ck": {
+      "script_name": "preprocess"
+    }
+  },
+  "compiler_env": "CK_CC",
+  "data_name": "dgemm",
+  "extra_ld_vars": "$<<CK_EXTRA_LIB_MKL_INTEL_LP64>>$ $<<CK_EXTRA_LIB_MKL_SEQUENTIAL>>$",
+  "extra_env_for_compilation": "ffd744d89815fd6a",
+  "main_language": "c",
+  "process_in_tmp": "yes",
+  "program": "yes",
+  "include_dirs":["C:\\Program Files (x86)\\Intel\\oneAPI\\mkl\\2021.1.1\\include"],
+  "run_cmds": {
+    "default": {
+      "ignore_return_code": "no",
+      "run_time": {
+        "run_cmd_main": "$#BIN_FILE#$ ",
+        "run_cmd_out1": "tmp-output1.tmp"
+      }
+    }
+  },
+  "run_vars": {
+  },
+  "source_files": [
+    "dgemm_ex.c"
+  ],
+  "tags": [
+    "gemm",
+    "mkl",
+    "test"
+  ],
+  "target_file": "dgemm"
+}

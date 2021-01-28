@@ -1,0 +1,385 @@
+{
+  "compiler": {
+    "local": "yes",
+    "name": "C compiler",
+    "sort": 10,
+    "tags": "compiler,lang-c",
+    "detected_ver": "19.28.29336",
+    "choices": [
+      "7e3bf1d84d0d8e93",
+      "064f708a2f8ed2b9"
+    ],
+    "cus": {
+      "add_only_with_version": "yes",
+      "build_dir_name": "mcl",
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_COMPILER_MVSC",
+      "full_path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\Build\\vcvarsall.bat",
+      "languages": [
+        "C",
+        "CPP"
+      ],
+      "limit_recursion_dir_search": {
+        "linux": 3,
+        "win": 4
+      },
+      "only_for_target_os_tags": [
+        "windows"
+      ],
+      "skip_path": "yes",
+      "skip_soft_file_is_asked": "yes",
+      "soft_file": {
+        "win": "vcvarsall.bat"
+      },
+      "soft_file_as_env": "CK_CC",
+      "soft_file_from_host_os": "yes",
+      "soft_file_not_tool": "yes",
+      "soft_path_example": {
+        "win": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\vcvarsall.bat"
+      },
+      "soft_version_cmd": {
+        "win": "> $#filename#$ 2>&1"
+      },
+      "sort": 1000,
+      "use_locale_for_version": "yes",
+      "version": "19.28.29336",
+      "version_split": [
+        19,
+        28,
+        29336
+      ]
+    },
+    "dict": {
+      "customize": {
+        "add_only_with_version": "yes",
+        "build_dir_name": "mcl",
+        "check_that_exists": "yes",
+        "ck_version": 10,
+        "env_prefix": "CK_ENV_COMPILER_MVSC",
+        "full_path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\Build\\vcvarsall.bat",
+        "languages": [
+          "C",
+          "CPP"
+        ],
+        "limit_recursion_dir_search": {
+          "linux": 3,
+          "win": 4
+        },
+        "only_for_target_os_tags": [
+          "windows"
+        ],
+        "skip_path": "yes",
+        "skip_soft_file_is_asked": "yes",
+        "soft_file": {
+          "win": "vcvarsall.bat"
+        },
+        "soft_file_as_env": "CK_CC",
+        "soft_file_from_host_os": "yes",
+        "soft_file_not_tool": "yes",
+        "soft_path_example": {
+          "win": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\vcvarsall.bat"
+        },
+        "soft_version_cmd": {
+          "win": "> $#filename#$ 2>&1"
+        },
+        "sort": 1000,
+        "use_locale_for_version": "yes",
+        "version": "19.28.29336",
+        "version_split": [
+          19,
+          28,
+          29336
+        ]
+      },
+      "deps": {
+        "msdk": {
+          "bat": "call C:\\Users\\patri\\CK\\local\\env\\0c897764498ae922\\env.bat\n",
+          "build_dir_name": "mcl",
+          "choices": [
+            "0c897764498ae922"
+          ],
+          "dict": {
+            "customize": {
+              "add_only_with_version": "yes",
+              "build_dir_name": "mcl",
+              "check_that_exists": "yes",
+              "ck_version": 10,
+              "env_prefix": "CK_ENV_MICROSOFT_SDK",
+              "full_path": "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A",
+              "languages": [
+                "C",
+                "CPP"
+              ],
+              "limit_recursion_dir_search": {
+                "win": 2
+              },
+              "only_for_target_os_tags": [
+                "windows"
+              ],
+              "skip_file_check": "yes",
+              "skip_path": "yes",
+              "soft_can_be_dir": "yes",
+              "soft_file": {
+                "win": "Microsoft SDKs"
+              },
+              "soft_path_example": {
+                "win": "C:\\Program Files (x86)\\Microsoft SDKs"
+              },
+              "soft_version_cmd": {
+                "win": "> $#filename#$ 2>&1"
+              },
+              "version": "10.0A",
+              "version_split": [
+                10,
+                0
+              ]
+            },
+            "data_name": "Microsoft SDK",
+            "deps": {},
+            "env": {
+              "CK_WINDOWS_SDK_PATH": "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A"
+            },
+            "env_script": "env.bat",
+            "install_location": "",
+            "setup": {
+              "host_os_uoa": "7a95e0754c37610a",
+              "target_os_bits": "64",
+              "target_os_uoa": "7a95e0754c37610a",
+              "version": "10.0A",
+              "version_split": [
+                10,
+                0
+              ]
+            },
+            "soft_alias": "sdk.microsoft",
+            "soft_uoa": "455871b9bf0ca210",
+            "tags": [
+              "64bits",
+              "host-os-windows-64",
+              "microsoft",
+              "sdk",
+              "target-os-windows-64",
+              "v10",
+              "v10.0",
+              "windows"
+            ]
+          },
+          "local": "yes",
+          "name": "Microsoft SDK",
+          "num_entries": 1,
+          "only_for_target_os_tags": [
+            "windows"
+          ],
+          "tags": "microsoft,sdk",
+          "uoa": "0c897764498ae922",
+          "ver": "10.0A"
+        }
+      },
+      "env": {
+        "CK_AR": "lib",
+        "CK_ASM_EXT": ".asm",
+        "CK_CC": "cl",
+        "CK_CMAKE_GENERATOR": "Visual Studio 15 2017 Win64",
+        "CK_COMPILER_FLAGS_OBLIGATORY": "/DWINDOWS /GS-",
+        "CK_COMPILER_FLAG_CPP0X": " ",
+        "CK_COMPILER_FLAG_CPP11": " ",
+        "CK_COMPILER_FLAG_OPENMP": "/openmp",
+        "CK_COMPILER_FLAG_PTHREAD_LIB": "/pthread",
+        "CK_COMPILER_FLAG_STD90": " ",
+        "CK_COMPILER_FLAG_STD99": " ",
+        "CK_COMPILER_TOOLCHAIN_NAME": "msvc",
+        "CK_CXX": "cl",
+        "CK_DLL_EXT": ".dll",
+        "CK_ENV_COMPILER_MVSC": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary",
+        "CK_ENV_COMPILER_MVSC_BIN": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\Hostx64\\x64",
+        "CK_ENV_COMPILER_MVSC_VC_MSBUILD": "",
+        "CK_EXE_EXT": ".exe",
+        "CK_FLAGS_CREATE_ASM": "/Fa /c",
+        "CK_FLAGS_CREATE_OBJ": "/c",
+        "CK_FLAGS_DLL": "/MT /DWin /LD",
+        "CK_FLAGS_DLL_EXTRA": "/link /dll",
+        "CK_FLAGS_DLL_NO_LIBCMT": "/NODEFAULTLIB:LIBCMT",
+        "CK_FLAGS_DYNAMIC_BIN": "/MD",
+        "CK_FLAGS_OUTPUT": "/Fe",
+        "CK_FLAGS_STATIC_BIN": "/MT",
+        "CK_FLAGS_STATIC_LIB": "/MD",
+        "CK_FLAG_PREFIX_INCLUDE": "/I",
+        "CK_FLAG_PREFIX_VAR": "/D",
+        "CK_LB": "lib",
+        "CK_LB_OUTPUT": "/OUT:",
+        "CK_LD_DYNAMIC_FLAGS": "/link /NODEFAULTLIB:LIBCMT",
+        "CK_LD_FLAGS_EXTRA": "",
+        "CK_LIB_EXT": ".lib",
+        "CK_MAKE": "nmake",
+        "CK_OBJDUMP": "dumpbin /disasm",
+        "CK_OBJ_EXT": ".obj",
+        "CK_OPT_SPEED": "/Ox",
+        "CK_OPT_UNWIND": "/EHsc",
+        "VCINSTALLDIR": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\Hostx64\\x64",
+        "VSINSTALLDIR": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary"
+      },
+      "env_script": "env.bat",
+      "install_location": "",
+      "setup": {
+        "deps_msdk": "0c897764498ae922",
+        "host_os_uoa": "7a95e0754c37610a",
+        "target_os_bits": "64",
+        "target_os_uoa": "7a95e0754c37610a",
+        "version": "19.28.29336",
+        "version_split": [
+          19,
+          28,
+          29336
+        ]
+      },
+      "soft_uoa": "651a97ec4814aff4",
+      "tags": [
+        "64bits",
+        "compiler",
+        "host-os-windows-64",
+        "lang-c",
+        "lang-cpp",
+        "mcl",
+        "microsoft",
+        "target-os-windows-64",
+        "v19",
+        "v19.28",
+        "v19.28.29336"
+      ],
+      "data_name": "Microsoft C compiler",
+      "soft_alias": "compiler.microsoft"
+    },
+    "ver": "19.28.29336",
+    "uoa": "7e3bf1d84d0d8e93",
+    "num_entries": 2,
+    "build_dir_name": "mcl",
+    "bat": "call C:\\Users\\patri\\CK\\local\\env\\7e3bf1d84d0d8e93\\env.bat\n"
+  },
+  "lib-mkl": {
+    "local": "yes",
+    "name": "MKL library",
+    "tags": "lib,mkl,core,sequential,lp64",
+    "sort": 20,
+    "choices": [
+      "9fdb552a954d5931"
+    ],
+    "cus": {
+      "add_include_path": "no",
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "dynamic_lib": "mkl_core.dll",
+      "env_prefix": "CK_ENV_LIB_MKL",
+      "extra_dynamic_libs": {
+        "mkl_intel_lp64": "libmkl_mkl_intel_lp64.dll",
+        "mkl_sequential": "libmkl_mkl_sequential.dll"
+      },
+      "extra_static_libs": {
+        "mkl_intel_lp64": "libmkl_mkl_intel_lp64.lib",
+        "mkl_sequential": "libmkl_mkl_sequential.lib"
+      },
+      "file_root_name": "mkl_core",
+      "file_root_names": [
+        "mkl_sequential",
+        "mkl_intel_lp64"
+      ],
+      "full_path": "C:\\Program Files (x86)\\Intel\\oneAPI\\mkl\\2021.1.1\\lib\\intel64\\mkl_core.lib",
+      "limit_recursion_dir_search": {
+        "linux": 4,
+        "win": 4
+      },
+      "path_lib": "C:\\Program Files (x86)\\Intel\\oneAPI\\mkl\\2021.1.1\\lib\\intel64",
+      "skip_path": "yes",
+      "soft_file": {
+        "linux": "libmkl_core.so",
+        "win": "mkl_core.lib"
+      },
+      "static_lib": "mkl_core.lib",
+      "version": "2021.1.1",
+      "version_split": [
+        2021,
+        1,
+        1
+      ]
+    },
+    "dict": {
+      "customize": {
+        "add_include_path": "no",
+        "check_that_exists": "yes",
+        "ck_version": 10,
+        "dynamic_lib": "mkl_core.dll",
+        "env_prefix": "CK_ENV_LIB_MKL",
+        "extra_dynamic_libs": {
+          "mkl_intel_lp64": "libmkl_mkl_intel_lp64.dll",
+          "mkl_sequential": "libmkl_mkl_sequential.dll"
+        },
+        "extra_static_libs": {
+          "mkl_intel_lp64": "libmkl_mkl_intel_lp64.lib",
+          "mkl_sequential": "libmkl_mkl_sequential.lib"
+        },
+        "file_root_name": "mkl_core",
+        "file_root_names": [
+          "mkl_sequential",
+          "mkl_intel_lp64"
+        ],
+        "full_path": "C:\\Program Files (x86)\\Intel\\oneAPI\\mkl\\2021.1.1\\lib\\intel64\\mkl_core.lib",
+        "limit_recursion_dir_search": {
+          "linux": 4,
+          "win": 4
+        },
+        "path_lib": "C:\\Program Files (x86)\\Intel\\oneAPI\\mkl\\2021.1.1\\lib\\intel64",
+        "skip_path": "yes",
+        "soft_file": {
+          "linux": "libmkl_core.so",
+          "win": "mkl_core.lib"
+        },
+        "static_lib": "mkl_core.lib",
+        "version": "2021.1.1",
+        "version_split": [
+          2021,
+          1,
+          1
+        ]
+      },
+      "deps": {},
+      "env": {
+        "CK_ENV_LIB_MKL": "C:\\Program Files (x86)\\Intel\\oneAPI\\mkl\\2021.1.1\\lib\\intel64",
+        "CK_EXTRA_LIB_MKL_INTEL_LP64": "\"C:\\Program Files (x86)\\Intel\\oneAPI\\mkl\\2021.1.1\\lib\\intel64\\mkl_intel_lp64.lib\"",
+        "CK_EXTRA_LIB_MKL_SEQUENTIAL": "\"C:\\Program Files (x86)\\Intel\\oneAPI\\mkl\\2021.1.1\\lib\\intel64\\mkl_sequential.lib\""
+      },
+      "env_script": "env.bat",
+      "install_location": "",
+      "setup": {
+        "host_os_uoa": "7a95e0754c37610a",
+        "target_os_bits": "64",
+        "target_os_uoa": "7a95e0754c37610a",
+        "version": "2021.1.1",
+        "version_split": [
+          2021,
+          1,
+          1
+        ]
+      },
+      "soft_uoa": "fa92b2f8434a4091",
+      "tags": [
+        "64bits",
+        "core",
+        "host-os-windows-64",
+        "lib",
+        "lp64",
+        "mkl",
+        "sequential",
+        "target-os-windows-64",
+        "v2021",
+        "v2021.1",
+        "v2021.1.1"
+      ],
+      "data_name": "MKL library",
+      "soft_alias": "mkl"
+    },
+    "ver": "2021.1.1",
+    "uoa": "9fdb552a954d5931",
+    "num_entries": 1,
+    "bat": "call C:\\Users\\patri\\CK\\local\\env\\9fdb552a954d5931\\env.bat\n"
+  }
+}

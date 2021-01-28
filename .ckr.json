@@ -1,0 +1,13 @@
+{
+  "data_uoa": "mkl_dgemm",
+  "data_uid": "469fa159b3465966",
+  "data_alias": "mkl_dgemm",
+  "data_name": "mkl_dgemm",
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      }
+    ]
+  }
+}
